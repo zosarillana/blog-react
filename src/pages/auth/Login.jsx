@@ -72,11 +72,7 @@ export default function Login() {
                   }
                   className="border px-3 py-2 mt-1 mb-2 text-sm w-full"
                 />
-                {errors.email && (
-                  <span className="alert alert-error text-sm">
-                    {errors.email[0]}
-                  </span>
-                )}
+
                 {errors.password && (
                   <span className="alert alert-error text-sm">
                     {errors.password[0]}
@@ -93,7 +89,7 @@ export default function Login() {
                 <button
                   type="submit"
                   className="transition duration-200 bg-black focus:shadow-sm focus:ring-4 focus:ring-blue-500 focus:ring-opacity-50 text-white w-full py-2.5 text-sm shadow-sm hover:shadow-md font-semibold text-center inline-block">
-                  <span className="inline-block mr-2">Register</span>
+                  <span className="inline-block mr-2">Login</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
